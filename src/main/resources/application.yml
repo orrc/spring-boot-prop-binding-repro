@@ -1,4 +1,3 @@
 app:
   myConfig:
-    first:
-      someProperty: 1
+    someProperty: 1

@@ -10,9 +10,7 @@ import org.springframework.context.annotation.Import
 class SomeTestConfig {
     @Bean
     fun someConfig() = SomeConfig(
-        first = SomeConfig.ChildConfig(
-            someProperty = 2,
-        ),
+        someProperty = 2,
     )
 }
 
