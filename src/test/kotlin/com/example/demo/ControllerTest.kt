@@ -11,12 +11,7 @@ class SomeTestConfig {
     @Bean
     fun someConfig() = SomeConfig(
         first = SomeConfig.ChildConfig(
-            someProperty = 5,
-            anotherProperty = 6,
-        ),
-        second = SomeConfig.ChildConfig(
-            someProperty = 7,
-            anotherProperty = 8,
+            someProperty = 2,
         ),
     )
 }

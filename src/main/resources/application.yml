@@ -2,7 +2,3 @@ app:
   myConfig:
     first:
       someProperty: 1
-      anotherProperty: 2
-    second:
-      someProperty: 3
-      anotherProperty: 4
