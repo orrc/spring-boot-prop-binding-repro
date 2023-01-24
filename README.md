@@ -1,6 +1,19 @@
-Fails with Spring Boot 3.0.2, but works with 3.0.0, and 3.0.1:
+Filed as [Spring Boot issue #33969](https://github.com/spring-projects/spring-boot/issues/33969).
+
+The service itself works as expected:
 ```
-./gradlew test
+$ ./gradlew bootRun
+$ curl -s localhost:8080 | jq
+{
+  "first": {
+    "someProperty": 1
+  }
+}
+```
+
+However, the test fails with Spring Boot 3.0.2, but works with 3.0.0, and 3.0.1:
+```
+$ ./gradlew test
 ```
 
 ```
